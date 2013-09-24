@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{42f89d7c-3ade-4023-826a-963d9eef5d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logic">
+      <UniqueIdentifier>{e69dc65f-592a-40db-baaf-3252d564cfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\storage">
+      <UniqueIdentifier>{26decc25-2fa5-4d22-8407-d8c79e2dffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{3db62487-4b43-4168-95df-13fdd917ef36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\jui">
+      <UniqueIdentifier>{5d96cdeb-7992-4101-bc51-304c2baa116e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{a7899529-0f68-4982-bb07-3ad5c2d5dffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\jui\Frame">
+      <UniqueIdentifier>{2f92b43e-d0fb-43c1-9b87-2bb09080bfd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UserTest.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="storage\design.txt">
+      <Filter>Source Files\storage</Filter>
+    </None>
+    <None Include="res\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\button_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\button_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\button_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\close_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\close_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\close_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sysbtn_bkg_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\min_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\min_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\min_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\newback.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mini_close_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mini_close_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mini_close_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="favorites.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\task.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\thread.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\maindialog.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JUtil.h">
+      <Filter>Source Files\jui</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JWindow.h">
+      <Filter>Source Files\jui</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JButton.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JFrame.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JStaitc.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\logic.h">
+      <Filter>Source Files\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\userinfo.h">
+      <Filter>Source Files\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="common\log.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\buginfo.h">
+      <Filter>Source Files\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Base64.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\util.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JEdit.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JVector.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JPicView.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JProcess.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="jui\JRoot.h">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\repotdialog.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\data.h">
+      <Filter>Source Files\storage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\common.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\thread.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\log.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Base64.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\buginfo.cpp">
+      <Filter>Source Files\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="jui\JFrame.cpp">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="jui\JVector.cpp">
+      <Filter>Source Files\jui\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="net\net.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\logic.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UserTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
